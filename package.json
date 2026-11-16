@@ -1,0 +1,10 @@
+{
+  "name": "catlog-dev",
+  "private": true,
+  "version": "1.1.0",
+  "description": "CatLog 猫咪日志：开发和测试工具",
+  "scripts": {
+    "build": "node dev/build.js",
+    "test": "node dev/test-core.js && node dev/test-backend.js && node dev/test-e2e.js && node dev/build-preview.js && node dev/test-preview.js"
+  }
+}
